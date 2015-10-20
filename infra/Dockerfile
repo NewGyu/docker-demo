@@ -56,8 +56,7 @@ RUN buildDeps=' \
 	&& sed -ri ' \
 		s!^(\s*CustomLog)\s+\S+!\1 /proc/self/fd/1!g; \
 		s!^(\s*ErrorLog)\s+\S+!\1 /proc/self/fd/2!g; \
-		' /usr/local/apache2/conf/httpd.conf \
-	&& apt-get purge -y $buildDeps
+		' /usr/local/apache2/conf/httpd.conf
 
 COPY httpd-foreground /usr/local/bin/httpd-foreground
 RUN chmod 750 /usr/local/bin/httpd-foreground
