@@ -1,6 +1,5 @@
 apply plugin: 'war'
 
-//applicationName = "hello"
 version = 0.1
 
 sourceCompatibility = 1.8
