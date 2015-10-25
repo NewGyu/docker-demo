@@ -10,7 +10,7 @@ Dockerチュートリアル
 
 ### 動作
 
-http://host/index.jsp  → [./app/src/webapp/index.jsp](./app/src/webapp/index.jsp)
+http://host/index.jsp  → [./app/src/main/webapp/index.jsp](./app/src/main/webapp/index.jsp)
 ```html:/index.jsp
 <html>
 <head>
