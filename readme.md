@@ -3,6 +3,9 @@ Dockerチュートリアル
 
 このプロジェクトはapache + tomcatで構築されたアプリケーションをDockerで動かして試すためのチュートリアル用デモです。
 
+より細かい解説は下記のQiitaの記事に書いているので参考にしてください。
+http://qiita.com/NewGyu/items/24290b79ecb606785edc
+
 ## 仕様
 
 * 80番ポートでhttpアクセスできる
